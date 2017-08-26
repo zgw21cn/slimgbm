@@ -1,6 +1,7 @@
 SlimGBM基于wepe的[tgboost](https://github.com/wepe/tgboost),参考[lightGBM](https://github.com/Microsoft/LightGBM)，作了如下修改：
 1. 基于histogram计算最佳分割点；
 2. Leaf-wise的树增长方式；
+3. 增加作图
 
 原有的tgboost支持如下特征：
 - 内置有Square error losst和Logistic loss
